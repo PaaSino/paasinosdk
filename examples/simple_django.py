@@ -34,3 +34,5 @@ print('************ DEPLOY **************')
 print('**********************************')
 print('********* Deploying app **********')
 django_app.deploy_app(IMAGE_NAME, 8000, '200m', '1G', '1G')
+
+print(f"Check this link to see your app: {NAME}-{NAMESPACE}.apps.ir-thr-at1.arvan.run")
