@@ -1,0 +1,15 @@
+{
+    "apiVersion":"build.openshift.io/v1",
+    "kind":"BuildRequest",
+    "metadata":{
+        "name":"python-build",
+        "creationTimestamp":null
+    },
+    "triggeredBy":[
+        {
+            "message":"Manually triggered"
+        }
+    ],
+    "dockerStrategyOptions":{},
+    "sourceStrategyOptions":{}
+}

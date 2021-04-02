@@ -1,0 +1,21 @@
+{
+    "apiVersion":"route.openshift.io/v1",
+    "kind":"Route",
+    "metadata":{
+        "name":"nginx-route"
+    },
+    "spec":{
+        "host":"myapp-amirmahdi.apps.ir-thr-at1.arvan.run",
+        "port":{
+            "targetPort":"http"
+        },
+        "tls":{
+            "insecureEdgeTerminationPolicy":"Allow",
+            "termination":"edge"
+        },
+        "to":{
+            "kind":"Service",
+            "name":"nginx-service"
+        }
+    }
+}

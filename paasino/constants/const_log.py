@@ -1,0 +1,3 @@
+ERROR = 'ERROR'
+INFO = 'INFO'
+WARN = 'WARN'
